@@ -1,11 +1,10 @@
 # 🟢 Clon de WhatsApp – Proyecto Final - UTN Frontend
 
-Link de acceso: [https://clon-wsp-frontbt.vercel.app/]
+Link de acceso: (https://clon-wsp-frontbt.vercel.app/)
 
-**Desarrollado por Bruno Talini**
 ---
 
-## 🇪🇸 Español
+## 🇪🇸 Español 
 
 ### 📋 Descripción del Proyecto
 Este proyecto consiste en un **Clon funcional de WhatsApp** desarrollado con **Vite + React**, como parte del trabajo práctico final de Frontend, desplegado y disponible a través de **Vercel**.  
@@ -13,13 +12,11 @@ El objetivo fue aplicar conceptos de **ruteo, manejadores de estados globales, h
 
 Repositorio base: [GabrielAlberini/base-proyecto-react-999198241](https://github.com/GabrielAlberini/base-proyecto-react-999198241)
 
-
-
 ---
 
-### 🚀 Nuevas funcionalidades implementadas
+### 🚀 Funcionalidades implementadas
 
-1. **🔐 Rutas protegidas según sesión**
+1. **🔐 Rutas protegidas según sesión: <ProtectedRoutes />**
    - El acceso a `/chat` solo está permitido si el usuario inició sesión correctamente.
    - Si no hay sesión activa, el usuario es redirigido automáticamente al login (`/`).
    - Si el usuario ya inició sesión, no puede volver manualmente al login.
@@ -31,7 +28,7 @@ Repositorio base: [GabrielAlberini/base-proyecto-react-999198241](https://github
    - Se controla con `useState` y estilos `position: fixed` para lograr un fondo semitransparente.
    - Incluye botón de cierre funcional.
 
-3. **❓ Página estática de Ayuda (/help)**
+3. **❓ Página de Ayuda para usuarios (/help)**
    - Nueva ruta `/help` accesible desde el botón de ayuda.
    - Contiene documentación sobre:
      - El funcionamiento general del chat.
@@ -42,16 +39,15 @@ Repositorio base: [GabrielAlberini/base-proyecto-react-999198241](https://github
 ---
 
 ### 🧠 Tecnologías Utilizadas
-- **React** (con Hooks: `useState`, `useEffect`, `useNavigate`)
-- **React Router DOM**
-- **Context API**
-- **LocalStorage**
+- **React** (con Estados y con Hooks: `useState`, `useEffect`, `useNavigate`)
+- **React Router DOM** (RouterApp y ProtectedRoutes)
+- Almacenamiento en **LocalStorage**
 - **CSS / Flexbox**
 - **Componentes modulares y reutilizables**
 
 ---
 
-### ⚙️ Instalación y Ejecución
+### ⚙️ Instalación y Ejecución Local
 
 1. Clonar el repositorio:
    ```bash
@@ -71,15 +67,13 @@ Repositorio base: [GabrielAlberini/base-proyecto-react-999198241](https://github
    ```
 5. Abrir en el navegador:
    ```
-   http://localhost:3000
+   http://localhost:5173
    ```
 
 ---
 
 ### 💡 Posibles Mejoras Futuras
-- Integración con un backend real para mensajería en tiempo real.
-- Modo oscuro completo y personalización de temas.
-- Soporte para envío de imágenes y archivos.
+- Integración con un backend real para mensajería.
 - Autenticación con Firebase o JWT.
 
 ---
